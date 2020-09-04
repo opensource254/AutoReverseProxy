@@ -7,7 +7,7 @@
 ## Configuration
 ......
 
-## Debugging
+## Debugginggit
 
 .....
 
@@ -20,4 +20,7 @@
 
 ## Contributing
 Please visit our [guidelines](https://opensource254.github.io/guidelines)
+
+## Licence
+[MIT](../master/LICENSE)
 
