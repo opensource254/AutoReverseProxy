@@ -23,6 +23,8 @@ general_exitmode_3="Disabling "$grey"forwarding of packets"
 
 
 #checking if all packages are installed & dependecies
+
+function checkdependences {
 REQUIRED_PKG="autossh"
 PKG_OK=$(dpkg-query -W --showformat='${Status}\n' $REQUIRED_PKG|grep "install ok installed")
 echo Checking for $REQUIRED_PKG: $PKG_OK
@@ -30,3 +32,5 @@ if [ "" = "$PKG_OK" ]; then
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   sudo apt-get --yes install $REQUIRED_PKG 
 fi
+
+}
