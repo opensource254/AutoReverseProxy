@@ -1,6 +1,12 @@
 # AutoReverseProxy
 >Reverse any local http connection to an online server with a preffered domain
 
+## Technology & Environment
+Linux
+shellscript
+Apache & CGI
+HTML
+
 ## Setup
 ....
 
